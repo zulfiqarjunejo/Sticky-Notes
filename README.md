@@ -1,8 +1,6 @@
 # Sticky-Notes
 
-## Conventions used
-
-- [Commit Messages](https://gist.github.com/brianclements/841ea7bffdb01346392c)
+It is a web app that I built to practice React which provides functionalities such as create, update, delete and read notes. At the moment, the data is not persistent as I plan to learn and integrate Redis key-value (KV) database.
 
 ## Servers
 
@@ -11,3 +9,15 @@
 Server express is a project generated with [Express Generator](https://expressjs.com/en/starter/generator.html) which provides a backend server based on Express (duh).
 
 Execute `DEBUG=myapp:* npm start` to launch the server at port `3000`.
+
+## Tools & Conventions
+
+- [Commit Messages](https://gist.github.com/brianclements/841ea7bffdb01346392c)
+
+- [Scripts](https://docs.npmjs.com/misc/scripts)
+
+## What I learnt
+
+- How to write REST apis in NodeJS using Express.
+- How to scaffold an Express-based app using Express-Generator.
+- How to setup ESLint to lint my NodeJS apps. [Tutorial](https://medium.com/the-node-js-collection/why-and-how-to-use-eslint-in-your-project-742d0bc61ed7)
