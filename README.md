@@ -19,5 +19,6 @@ Execute `DEBUG=myapp:* npm start` to launch the server at port `3000`.
 ## What I learnt
 
 - How to write REST apis in NodeJS using Express.
+- How to integrate TypeScript support in Express app. [Tutorial](https://medium.com/javascript-in-plain-english/typescript-with-node-and-express-js-why-when-and-how-eb6bc73edd5d)
 - How to scaffold an Express-based app using Express-Generator.
 - How to setup ESLint to lint my NodeJS apps. [Tutorial](https://medium.com/the-node-js-collection/why-and-how-to-use-eslint-in-your-project-742d0bc61ed7)
