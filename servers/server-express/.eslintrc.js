@@ -7,4 +7,8 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "prettier/@typescript-eslint",
   ],
+  rules: {
+    semi: ["error", "always"],
+    quotes: ["error", "single"],
+  },
 };

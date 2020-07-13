@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "prestart": "npx eslint ./src --ext .ts --fix",
+    "lint": "npx eslint ./src --ext .ts --fix",
+    "prestart": "npm run lint",
     "start": "tsc && node ./bin/www",
     "tsc": "tsc"
   },
@@ -14,12 +15,14 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
-    "pug": "2.0.0-beta11"
+    "pug": "2.0.0-beta11",
+    "uuid": "^8.2.0"
   },
   "devDependencies": {
     "@types/cookie-parser": "^1.4.2",
     "@types/http-errors": "^1.8.0",
     "@types/morgan": "^1.9.1",
+    "@types/uuid": "^8.0.0",
     "@typescript-eslint/eslint-plugin": "^3.6.0",
     "@typescript-eslint/parser": "^3.6.0",
     "eslint": "^7.4.0",
